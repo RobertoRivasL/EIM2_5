@@ -1,0 +1,74 @@
+body {
+  background-image: url(./imagen/GSFC_20171208_Archive_e000492~orig.jpg);
+  color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-size: 1550px 768px;
+
+
+  .navbar .nav-link {
+    color: #fff;
+  }
+}
+
+
+
+#micontador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+#micontador .num {
+  display: flex;
+  flex-direction: column;
+  border: 4px solid rgb(14, 10, 233);
+  margin: 0 8px;
+}
+
+#micontador .num .dig {
+  overflow: hidden;
+  padding: 10px;
+}
+
+#micontador .num .dig span {
+  font-family: "Arial Black";
+  font-size: 4rem;
+  font-weight: 800px;
+  position: relative;
+  color: chartreuse;
+}
+
+#micontador .label {
+  text-align: center;
+  border-top: 4px solid rgb(14, 10, 233);
+}
+
+.tit {
+  justify-content: center, display-1
+}
+
+H1 {
+  text-align: center
+}
+
+#uniqueItem {
+  background-color: yellow;
+  color: red;
+  font-weight: bold;
+}
+
+H1 {
+  text-align: center
+}
+
+H2 {
+  text-align: center
+  }
+
+.boton {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
